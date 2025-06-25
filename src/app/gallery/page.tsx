@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Gallery() {
@@ -147,7 +148,7 @@ export default function Gallery() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
               >
                 <div className="aspect-w-16 aspect-h-12 bg-gray-200">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.title}
                     className="w-full h-48 object-cover"

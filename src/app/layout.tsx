@@ -4,17 +4,12 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
-interface LayoutProps {
-  children: React.ReactNode;
-  title: string;
-}
-
-const Layout = ({ children, title }: LayoutProps) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body>
         <Head>
-          <title>{title}</title>
+          <title>AICE</title>
           <meta
             name="description"
             content="Association of Innovative Computer Engineers - Empowering the future of technology"
