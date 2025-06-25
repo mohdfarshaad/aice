@@ -41,9 +41,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="text-gray-300 space-y-2">
-              <p>Email: info@aice.org</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Address: 123 Tech Street, Innovation City</p>
+              <p>Email: mjpcaice@gmail.com</p>
+              <p>Phone: +91 9074348824</p>
+              <p>Address: Majlis Polytechnic College Puramannur</p>
             </div>
           </div>
         </div>
