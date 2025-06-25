@@ -13,8 +13,7 @@ export default function Gallery() {
       category: "workshops",
       date: "November 2024",
       description: "Hands-on machine learning workshop with industry experts",
-      image:
-        "https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=AI+Workshop",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 2,
@@ -23,8 +22,7 @@ export default function Gallery() {
       date: "October 2024",
       description:
         "Our biggest annual gathering with keynote speakers and networking",
-      image:
-        "https://via.placeholder.com/400x300/10B981/FFFFFF?text=Tech+Conference",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 3,
@@ -33,8 +31,7 @@ export default function Gallery() {
       date: "September 2024",
       description:
         "Celebrating our hackathon winners and their innovative solutions",
-      image:
-        "https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Hackathon+Winners",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 4,
@@ -42,8 +39,7 @@ export default function Gallery() {
       category: "workshops",
       date: "August 2024",
       description: "Deep dive into AWS, Azure, and Google Cloud platforms",
-      image:
-        "https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Cloud+Seminar",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 5,
@@ -51,8 +47,7 @@ export default function Gallery() {
       category: "panels",
       date: "July 2024",
       description: "Inspiring discussion with female leaders in technology",
-      image:
-        "https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Women+in+Tech",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 6,
@@ -60,8 +55,7 @@ export default function Gallery() {
       category: "competitions",
       date: "June 2024",
       description: "Entrepreneurs presenting their innovative tech solutions",
-      image:
-        "https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Startup+Pitch",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 7,
@@ -70,8 +64,7 @@ export default function Gallery() {
       date: "May 2024",
       description:
         "Casual networking event with food, drinks, and great conversations",
-      image:
-        "https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Networking+Night",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 8,
@@ -80,8 +73,7 @@ export default function Gallery() {
       date: "April 2024",
       description:
         "Learning about the latest security threats and protection strategies",
-      image:
-        "https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Cybersecurity",
+      image: "/images/placeholder.jpeg",
     },
     {
       id: 9,
@@ -89,8 +81,7 @@ export default function Gallery() {
       category: "workshops",
       date: "March 2024",
       description: "Intensive training on React Native and Flutter development",
-      image:
-        "https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Mobile+Bootcamp",
+      image: "/images/placeholder.jpeg",
     },
   ];
 
@@ -149,6 +140,8 @@ export default function Gallery() {
               >
                 <div className="aspect-w-16 aspect-h-12 bg-gray-200">
                   <Image
+                    width={200}
+                    height={300}
                     src={item.image}
                     alt={item.title}
                     className="w-full h-48 object-cover"
