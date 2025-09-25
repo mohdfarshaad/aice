@@ -1,40 +1,73 @@
-# AICE - Association of Innovative Computer Engineers
+💻 AICE – Association of Innovative Computer Engineering
 
-A modern, static Next.js
+This is the official website of AICE (Association of Innovative Computer Engineering), the student-led association of the Computer Engineering Department at Majlis Polytechnic College.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AICE brings together all three years of Computer Engineering students, serving as the central body through which common programs, events, and initiatives are organized.
 
-## Getting Started
+📌 About AICE
+---
+🎓 A platform by students, for students
 
-First, run the development server:
+⚡ Hosts academic, technical, and cultural programs
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🤝 Builds collaboration between different year batches
+
+🚀 Encourages innovation, leadership, and skill development
+
+🏗️ Project Structure
+---
+```
+aice-website/
+│
+├── components/       # Shared UI components (navbar, footer, etc.)
+├── events/           # Events page
+├── gallery/          # Gallery page
+├── login/            # Login page
+├── members/          # Members page
+├── signup/           # Signup page
+├── favicon.ico
+├── globals.css       # Global styles
+├── layout.tsx        # App layout
+└── page.tsx          # Homepage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚙️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+ – React framework for modern web apps
+- Tailwind CSS
+ – Styling
+- Vercel
+ – Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/yourusername/aice-website.git
+cd aice-website
 
-## Learn More
+2. Install dependencies
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+3. Run the development server
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Visit http://localhost:3000
+ to view the site.
 
-## Deploy on Vercel
+📜 Features
+---
+🏠 Home Page – Introduction to AICE
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👥 Members Page – Student members and committees
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🎤 Events Page – Ongoing and past events
+
+🖼️ Gallery – Pictures from programs and activities
+
+🔑 Login & Signup – User authentication system
+
+🤝 Contribution
+---
+This project is open for contributions by students of Computer Engineering, Majlis Polytechnic College.
+If you’d like to contribute:
